@@ -53,7 +53,7 @@ function Footer() {
 
         <div className="footer-bottom">
           <div className="footer-logo">Pro Chartist</div>
-          <p className="footer-copyright">© {new Date().getFullYear()} Pro Chartist. All rights reserved.</p>
+          {/* <p className="footer-copyright">© {new Date().getFullYear()} Pro Chartist. All rights reserved.</p> */}
           <p className="footer-description">
             Pro Chartist is a leading platform for advanced trading analysis and automated trading solutions.
             We provide cutting-edge tools and educational resources for traders of all levels.
@@ -64,6 +64,9 @@ function Footer() {
             <span className="social-link"><FiLinkedin /></span>
             <span className="social-link"><FiYoutube /></span>
           </div>
+          <p className="footer-description">
+            © <b>Designed and developed by Intellisys IT Solutions Pvt Ltd. </b>
+          </p>
         </div>
       </div>
     </footer>

@@ -75,7 +75,7 @@ const CountdownPopup = ({ onClose }) => {
 
             {/* Welcome text */}
             <h1 className="text-5xl font-bold text-center text-white mb-2">Welcome to Pro Chartist!!</h1>
-            <p className="text-2xl text-center text-purple-200 mb-6">Vishal Abhang</p>
+            <p className="text-2xl text-center text-purple-200 mb-6">Mr.Vishal Abhang</p>
 
             {/* Countdown */}
             <div className="flex justify-center mb-8">
